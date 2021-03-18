@@ -34,3 +34,10 @@ summary,
   margin: auto;
   margin-bottom: 3%;
 }
+
+.spotify {
+  min-width: 560;
+  display: block;
+  text-align: center;
+  margin: auto;
+}

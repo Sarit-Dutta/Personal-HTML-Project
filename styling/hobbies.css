@@ -4,6 +4,9 @@
   padding: 5px;
   margin-top: 1%;
   margin-bottom: 3%;
+  margin-right: 15%;
+  margin-left: 15%;
+  border-radius: 5px;
 }
 
 .contents h2 {
@@ -12,9 +15,43 @@
 
 .contents > ul {
   list-style: none;
-  margin: 5px;
+  margin: 5px 20% 5px 20%;
   padding-left: 0px;
   line-height: 1.3rem;
   border: 2px solid black;
   border-radius: 5px;
+  background-color: rgb(68, 224, 115);
+}
+
+.temp {
+  display: flex;
+  flex: 2;
+}
+
+.player {
+  width: 100%;
+}
+
+#spotify-flex {
+  display: flex;
+  flex-flow: row;
+  margin: 0%;
+  padding: 5%;
+}
+
+.description {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  flex: 1;
+  background-color: aqua;
+  border-radius: 5px;
+  line-height: 1.4rem;
+}
+
+#music-intro {
+  text-align: justify;
 }
