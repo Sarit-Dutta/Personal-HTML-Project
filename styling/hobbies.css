@@ -32,11 +32,11 @@
   width: 100%;
 }
 
-#spotify-flex {
+.spotify-flex {
   display: flex;
   flex-flow: row;
   margin: 0%;
-  padding: 5%;
+  padding: 10px;
 }
 
 .description {
@@ -52,6 +52,22 @@
   line-height: 1.4rem;
 }
 
+.resource-name {
+  width: 20%;
+}
+
 #music-intro {
   text-align: justify;
+}
+
+#Gaming {
+  text-align: justify;
+  margin: 5px;
+}
+
+#resources,
+#resources td,
+#resources th {
+  border: 3px solid black;
+  border-radius: 5px;
 }
